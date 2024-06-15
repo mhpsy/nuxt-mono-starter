@@ -1,0 +1,27 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+# 最外层的env文件都会被忽略
+# Ignore the .env file in the root directory
+/.env
+# Don't ignore .env files in any subdirectories
+!*/.env
+!.env.example

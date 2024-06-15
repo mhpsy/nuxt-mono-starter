@@ -1,0 +1,19 @@
+{
+  "name": "tk-nuxt-monorepo",
+  "scripts": {
+    "__1": "dotenv 的作用是在启动前加载进去公共的env变量",
+    "packages": "dotenv -- pnpm --filter",
+    "app1": "pnpm packages @mh/app1",
+    "dev": "dotenv -- pnpm -r dev",
+    "build": "dotenv -- pnpm -r build"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^3.12.1",
+    "nuxt": "^3.12.1",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^7.3.0"
+  }
+}
