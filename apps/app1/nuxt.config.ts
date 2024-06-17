@@ -18,6 +18,7 @@ export default defineNuxtConfig({
     },
     css: ['~/assets/styles/main.css'],
     extends: ["@mh/ui"],
+    modules: ['@pinia/nuxt'],
     devServer: {
         port: 4399,
     },

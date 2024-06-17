@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@mh/ui": "workspace:*",
+    "@pinia/nuxt": "^0.5.1",
     "@vueuse/core": "^10.11.0",
     "cos-nodejs-sdk-v5": "^2.14.1",
+    "pinia": "^2.1.7",
     "sass": "^1.77.5",
     "vue-dd": "^1.6.5",
     "zod": "^3.23.8"
